@@ -1,0 +1,23 @@
+{
+  "name": "ep2",
+  "version": "1.0.0",
+  "description": "jscasts - episode 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha spec/index.js"
+  },
+  "author": "Wojciech Krysiak",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "hapi": "^17.8.1",
+    "joi": "^14.3.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.6"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.3"
+  }
+}
