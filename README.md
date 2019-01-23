@@ -1,5 +1,5 @@
-### Episode 3
+### Episode 4
 
-This repository is the complete code used in JScasts - Episode 3
+This repository is the complete code used in JScasts - Episode 4
 
-You can watch the episode here: https://youtu.be/E-zzphx02yM
+You can watch the episode here:.....
