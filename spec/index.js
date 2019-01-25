@@ -1,5 +1,6 @@
 const chai = require('chai')
 global.expect = chai.expect
+global.sinon = require('sinon')
 
 const mongoose = require('mongoose')
 
@@ -11,6 +12,10 @@ before(function () {
 
 after(function () {
   mongoose.connection.close()
+})
+
+afterEach(function() {
+  sinon.restore()
 })
 
 require('./decorators/user-decorator.spec.js')
